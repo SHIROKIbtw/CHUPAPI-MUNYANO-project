@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "wrift" ;
+    src: url(fonts/RampartOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Minecraftwrift";
+    src: url(fonts/minecraft.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/stone_fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.headerSection{
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(image/wapka.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerLogoText{
+    font-family: "Minecraftwrift", sans-serif;
+    color: lightgrey;
+}
+
+.navText{
+    font-family: "Minecraftwrift", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: yellow;
+    margin-left: 130px;
+    opacity: .75;
+    transition: .1s linear;
+}
+
+.navText:hover {
+    color: green;
+}
+
+.navfooterText{
+    font-family: "Minecraftwrift", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    transition: .1s linear;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
+.navfooterText:hover{
+    color: yellow;
+}
+
+.headerLogo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.aboutText{
+    font-family: "Minecraftwrift";
+    color:rgb(230, 230, 230);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+}
+
+.aboutText p{
+    margin: 10px 0;
+}
+
+.spisok{
+    text-align: left;
+}
+
+.vstup{
+    font-size: 28px;
+}
+
+.potomy{
+    font-size: 28px;
+}
+
+.aboutContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 756px;
+}
+
+.about-image {
+    margin: 50px;
+    width: 900px;
+    height: 555px;
+    
+}
+
+.aboutCont{
+    display: flex;
+    flex-direction: column;
+}
+
+.domaWrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.domaContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.domaTitle{
+    font-size: 40px;
+    color: lightgrey;
+    font-family: "Minecraftwrift", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.domaImage{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 1);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.featureCard{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.featureText{
+    color: lightgrey;
+    font-family: "Minecraftwrift", sans-serif;
+    font-size: 24px;
+    margin-left: 30px;
+    max-width: 400px;
+    line-height: 32px;
+    
+}
+
+.featureContent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featureTitle{
+    color: lightgrey;
+    font-family: "Minecraftwrift", sans-serif;
+    font-size: 34px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.featureTextdom{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.featureSelltext{
+     color: lightgrey;
+    font-family: "Minecraftwrift", sans-serif;
+    font-size: 34px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.featureSell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transition: .3s;
+    border-radius: 35px;
+}
+
+.featureSell:hover{
+    background: grey;
+    transform: scale(1.15);
+    margin-bottom: 40px;
+}
+
+.featureWrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.featureContainer{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.featureImagedom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.footerBG{
+    background-image: url(image/bedrock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    color: white;
+    font-family: "Minecraftwrift", sans-serif;
+}
+
+.footerTitle{
+    font-size: 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerWrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerText{
+    margin-top: 15px;
+}
+
+.footerLogo{
+    margin-top: 20px;
+}
